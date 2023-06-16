@@ -1,0 +1,43 @@
+p{
+    text-align: center;
+    font-size: 45px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration:underline;
+    font-weight: 800;
+}
+.topnav {
+    background-color:black;
+    overflow: hidden;
+    width:auto;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color:aqua;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 21; 
+    margin-bottom:auto;
+    margin-right: auto;
+}
+
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color:aqua;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:red;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 24; 
+}
+  
